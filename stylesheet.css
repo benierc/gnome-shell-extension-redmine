@@ -1,0 +1,45 @@
+/* Add your custom extension styling here */
+.common-issue-item {
+    padding: 1px;
+    height: 1.2em;
+}
+
+.popup-menu-item-open {
+    background-color: #0065ff;
+}
+
+.popup-menu-item-resolved {
+    background-color: #3e4359;
+}
+
+.popup-menu-item {
+    width: 35em;
+    height: 1.2em;
+}
+
+.popup-button:hover {
+    background-color: deepskyblue;
+}
+
+.popup-button {
+    display: block;
+}
+
+.popup-activities {
+    height: 1.2em;
+    padding: 1px;
+}
+
+.popup-menu-icon:hover {
+    color: deepskyblue;
+}
+
+.time-entry {
+    padding: 0px;
+    max-width: 5em;
+    min-width: 1em;
+}
+
+.button-activity {
+    max-width: 3em;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "redmine",
+  "description": "redmine time recorder",
+  "uuid": "redmine@benier.bzh",
+  "shell-version": ["45", "46"],
+  "settings-schema": "org.gnome.shell.extensions.redmine",
+  "url": "https://github.com/benierc/gnome-shell-extension-redmine"
+}
