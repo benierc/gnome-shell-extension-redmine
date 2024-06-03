@@ -13,7 +13,7 @@ schemas/gschemas.compiled: schemas/org.gnome.shell.extensions.$(NAME).gschema.xm
 	glib-compile-schemas schemas
 
 $(ZIPNAME).zip: extension.js src/*.js schemas/gschemas.compiled
-	gnome-extensions pack -f --extra-source=src
+	gnome-extensions pack -f --extra-source=src --extra-source=pref.js
 
 pack: $(ZIPNAME).zip
 
